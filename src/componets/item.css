@@ -1,0 +1,57 @@
+.item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+    background-color: aqua;
+    border-radius: 10px;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.score{
+   display: flex;
+   align-items: center;
+   gap: 5px;
+   
+}
+
+.score p{
+    font-weight: 800;
+    color: black;
+}
+
+.score p:last-child{
+    opacity: 0.5;
+    color: black;
+}
+
+.lightRed {
+    color: hsla(0, 100%, 67%, 1);
+    background-color: hsla(0, 100%, 67%, 0.05); 
+    font-weight: 800;
+  }
+  
+  .orangeyYellow {
+    color: hsla(39, 100%, 56%, 1);
+    background-color: hsla(39, 100%, 56%, 0.05);
+    font-weight: 800;
+  }
+  
+  .greenTeal {
+    color: hsla(166, 100%, 37%, 1);
+    background-color: hsla(166, 100%, 37%, 0.05);
+    font-weight: 800;
+  }
+  
+  .cobaltBlue {
+    color: hsla(234, 85%, 45%, 1);
+    background-color: hsla(234, 85%, 45%, 0.05);
+    font-weight: 800;
+  }
+

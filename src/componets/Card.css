@@ -1,0 +1,175 @@
+.result {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    background: linear-gradient(
+      180deg,
+      var(--LightslateBlue),
+      var(--LightRoyalBlue)
+    );    
+    border-radius: 0 0 30px 30px;
+    width: 100%;
+    padding: 40px 20px 40px 20px;
+    margin-bottom: 20px;
+    text-align: center;  
+    justify-content: center;
+
+  }
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+
+  
+   
+  }
+
+  .subtitle  {
+    color: var( --LightLavender);
+    font-size: 1rem;
+  }
+
+  .circle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: linear-gradient(
+      180deg,
+      var(--VioletBlue),
+      var(--PersianBlue)
+    );
+    margin: 20px 0;
+  }
+
+  .number {
+    color: var( --White);
+    font-size: 3rem;
+    font-weight: 800;
+  }
+
+  .text {
+    color: var( --LightLavender);
+    font-size: 1rem;
+    font-weight: 600;
+    opacity: 0.8;
+  }
+
+  .title {
+    color: var( --White);
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin: 15px 0;
+  }
+  .description {
+    color: var( --LightLavender);
+    font-size: 1rem;
+    font-weight: 600;
+    opacity: 0.8;
+    width: 80%;
+   
+  }
+
+  .content{
+    display: flex;
+    flex-direction: column;
+    padding:0px 30px 35px 30px;
+    width: 100%;
+    gap: 20px;
+   
+  }
+
+  .summary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+
+  }
+
+  .subtitle-summary{
+    font-weight: 800;
+  }
+
+button{
+    width: 100%;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    background-color: var(--DarkGrayBlue);
+    color: var(--White);
+    font-size: 1rem;
+    font-weight: 500;
+    transition: background 5s ease-in-out;
+}
+
+button:hover{
+    cursor: pointer;
+    background: linear-gradient(var(--LightslateBlue), var(--LightRoyalBlue));
+}
+
+@media screen and (min-width: 768px) {
+
+    .result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(180deg, var(--LightslateBlue), var(--LightRoyalBlue));
+    border-radius:30px ;
+    width: 100%;
+    padding: 50px 30px 50px 30px;
+    margin-bottom: 0px;
+    text-align: center;
+    height: 100%;
+}
+
+.card {
+    flex-direction: row;
+    align-items: center;
+    width: 60%;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    
+}
+
+.content {
+    
+    padding:35px;
+    width: 100%;
+    justify-content: space-around;
+    height: 100%;
+}
+
+    .subtitle{
+        font-size: 1.5rem;
+    }
+
+    .circle {
+        width: 200px;
+        height: 200px;
+    }
+
+    .number {
+        font-size: 4rem;
+    }
+
+    .text {
+        font-size: 1.2rem;
+    }
+
+    .title {
+        font-size: 2rem;  
+    }
+        
+  
+}
