@@ -12,7 +12,7 @@
 
 ### Ver demo
 
-[Demo](https://lohanao.github.io/-05-product-preview-card-component/)
+[Demo](https://06-results-summary-component.vercel.app/)
 
 ## Desafio
 ### Los usuarios deberían poder:
