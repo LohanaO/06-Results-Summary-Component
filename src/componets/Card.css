@@ -127,7 +127,6 @@ button:hover{
     background: linear-gradient(180deg, var(--LightslateBlue), var(--LightRoyalBlue));
     border-radius:30px ;
     width: 100%;
-    padding: 40px 30px 50px 34px;
     margin-bottom: 0px;
     text-align: center;
     height: 100%;
@@ -169,6 +168,10 @@ button:hover{
 
     .title {
         font-size: 2rem;  
+    }
+
+    .description {
+        width: 75%;
     }
         
   
